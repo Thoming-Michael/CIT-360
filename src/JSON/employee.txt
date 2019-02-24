@@ -1,0 +1,12 @@
+{
+	"id":24601,
+	"name":"Michael Thoming",
+	"permanent":true,
+	"address":{
+			"street":"3031 ONEIL pl.",
+			"city":"Lincoln",
+			"zipcode":68516
+		},
+	"phoneNumbers":[1015551212, 1018675309],
+	"role":"Manager"
+}

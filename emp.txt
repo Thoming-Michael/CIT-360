@@ -1,0 +1,1 @@
+{"id":222,"name":"Gage Thoming","permanent":false,"role":"Technician","phoneNumbers":[1234567,9876543],"address":{"street":"1581 S. Dale Ct.","city":"Denver","zipcode":80219}}

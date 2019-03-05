@@ -28,9 +28,8 @@ public class SpeakHandler implements Handler {
 
         } 
         catch (Exception e) {
-
-        e.printStackTrace();
-    }
+            e.printStackTrace();
+        }
 }
     
 }

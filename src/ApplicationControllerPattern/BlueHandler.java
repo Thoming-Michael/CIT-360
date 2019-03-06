@@ -12,24 +12,17 @@ import JSON.quickconnectfamily.*;
  *
  * @author mthoming
  */
-public class SpeakHandler implements Handler {
+public class BlueHandler implements Handler {
     
     @Override
     public void handleIt(HashMap<String, Object> dataMap) {
         try{
-            JSONOutputStream outToClient = (JSONOutputStream)dataMap.remove("toClient");
-
-            System.out.println("Just got:" + dataMap + " from client");
-
-            dataMap.put("command", "Done");
-            outToClient.writeObject(dataMap);
-
-            System.out.println("just sent " + dataMap);
+            System.out.println("Blue Handler was called.");
 
         } 
         catch (Exception e) {
             e.printStackTrace();
         }
-}
+    }
     
 }
